@@ -1,0 +1,66 @@
+.statistic-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 5px;
+    width: 139px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.statistic-item__cost {
+    font-size: 1.8em;
+}
+
+.basisCurrency-widget {
+    display: flex;
+    background-color: rgb(33, 33, 160);
+    flex-direction: row;
+    height: 100px;
+}
+
+.basisCurrency-widget__title {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.basisCurrency-widget__buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    max-width: 200px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.basisCurrency-widget__button {
+    padding: 3px 10px;
+    background-color: transparent;
+    color: white;
+    margin: 3px;
+    border-color: #dddddd55;
+    max-width: 100px;
+}
+
+.text-widget__title {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    background-color: rgb(33, 33, 160);
+    flex-direction: row;
+    height: 70px;
+    text-transform: uppercase;
+}

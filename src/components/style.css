@@ -1,0 +1,28 @@
+.rate-block {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+}
+
+.rate-block h3 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: red;
+    padding: 10px 0px;
+
+}
+
+.rate-blockRow__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rate-statistic {
+    margin: 5px;
+    box-shadow: 0px 0px 3px 0px #ddd, 3px 3px 3px 0px #f5f5f5;
+}
+

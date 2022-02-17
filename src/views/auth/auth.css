@@ -1,0 +1,37 @@
+.authPanel {
+    display: flex;
+    width: 100vw;    
+    height: 100vh;
+    flex-direction:row-reverse;
+    border: 1px solid #ddd;
+    background-image: url(./img/backgroung.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.authForm {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left:50%;
+}
+
+.authForm .ant-row {
+    flex-direction: column;
+}
+.authForm .ant-form-item-label {
+    text-align: left;
+}
